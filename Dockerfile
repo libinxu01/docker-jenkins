@@ -6,4 +6,4 @@ RUN apt-get -y install ruby rake
 RUN gem install --no-rdoc --no-ri rspec ci_reporter_rspec
 
 #work dir
-RUN mkdir -p /opt/project
+RUN mkdir -p /opt/project/workspace
