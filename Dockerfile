@@ -6,5 +6,6 @@ RUN apt-get -y install ruby rake
 RUN gem install --no-rdoc --no-ri rspec ci_reporter_rspec
 
 #work dir
-USER root
-RUN mkdir -p /opt/project/workspace
+#USER root
+#RUN mkdir -p /opt/project
+#ADD /tmp/jenkins-buildenv/docker_test_job/workspace /opt/project
